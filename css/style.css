@@ -1,0 +1,145 @@
+
+body {
+    background-color: #dedede;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.color-box {
+    flex: 1 1 30%; /* Allows better responsiveness */
+    max-width: 250px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.color-box img {
+    width: 100%;
+    max-height: 150px; /* Ensures images don’t get too tall */
+}
+
+/* Media query for 998px */
+@media (max-width: 998px) {
+    .color-box {
+        width: 30vw;
+    }
+}
+
+/* Media query for 772px */
+@media (max-width: 772px) {
+    .color-box {
+        width: 45vw;
+    }
+
+    .color-box img {
+        max-height: 30vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+main {
+    border: 5px #000 solid;
+    margin: 10px;
+}
+ */
+/* 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ */
+/* img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+
+/* .child {
+    position: relative;
+    display: inline-block;
+    border: 5px black solid;
+    margin: 5px;
+    border-radius: 5px;
+} */
+
+/* 
+
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 25px;
+}
+ */
+/* 
+.button:hover {
+    background-color:#fff;
+} */
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+header {
+    border-radius: 5px;
+    border: 5px #000 solid;
+    margin: 10px;
+} */
+
+/* 
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.child:hover .label {
+    display: block;
+} */
